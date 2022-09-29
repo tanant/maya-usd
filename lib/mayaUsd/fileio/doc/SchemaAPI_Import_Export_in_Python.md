@@ -151,7 +151,7 @@ print(schema.GetAuthoredAttributeNames())
 shadowColor = schema.GetAttribute("inputs:shadow:color")
 print(shadowColor.Get())
 # result: (0.21763764, 0.047366142, 0)
-print(mayaUsdLib.ConvertMayaToLinear((0.5, 0.25, 0))
+print(mayaUsdLib.ConvertMayaToLinear((0.5, 0.25, 0)))
 # result: (0.21763764, 0.047366142, 0)
 
 shadowColor.Set((1,0,0))
